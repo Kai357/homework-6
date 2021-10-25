@@ -5,11 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Weather app</title>
   </head>
   <body>
-    <div><search-bar>search</search-bar></div>
-    <main>content</main>
+    <header>
+      <h1>Search a city name to get the weather there</h1>
+    </header>
+    <div class="topnav">
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <main class="weather">content</main>
   </body>
   <script src="script.js"></script>
 </html>
