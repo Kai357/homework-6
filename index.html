@@ -13,18 +13,27 @@
   </head>
   <body>
     <header>
-      <h1>Search a city name to get the weather there</h1>
+      <h1 class="title">Search a city name to get the weather there</h1>
     </header>
     <div class="topnav">
       <div class="search-container">
-        <form action="/action_page.php">
+        <form>
           <input type="text" placeholder="Search.." name="search" />
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
 
-    <main class="weather">content</main>
+    <main class="weather">
+      <div class="location">
+        <h2 class="local">location</h2>
+        <p>icon</p>
+      </div>
+      <div class="temp">
+        <h3 class="degrees">45</h3>
+        <p class="temp-discription">wow its cold</p>
+      </div>
+    </main>
   </body>
   <script src="script.js"></script>
 </html>
